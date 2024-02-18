@@ -10,9 +10,7 @@ const findKeyByValue = require('./findKeyByValue');
 const flatten = require('./flatten');
 const head   = require('./head');
 const letterPositions = require('./letterPositions');
-const map = require('./map');
 const middle = require('./middle');
-const reverse = require('./reverse');
 const tail   = require('./tail');
 const takeUntil = require('./takeUntil');
 const without = require('./without');
@@ -30,9 +28,7 @@ module.exports = {
   flatten : flatten,
   head:   head,
   letterPositions : letterPositions,
-  map: map,
   middle: middle,
-  reversed : reverse,
   tail:   tail,
   takeUntil : takeUntil,
   without : without,

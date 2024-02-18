@@ -30,9 +30,11 @@ const assertObjectsEqual = (actual, expected) => {
   }
 };
 
-const shirtObject = { color: "red", size: "medium" };
-const anotherShirtObject= { size: "medium", color: "red" };
-const longSleeveShirtObject= { size: "medium", color: "red", sleeveLength: "long" };
+// const shirtObject = { color: "red", size: "medium" };
+// const anotherShirtObject= { size: "medium", color: "red" };
+// const longSleeveShirtObject= { size: "medium", color: "red", sleeveLength: "long" };
 
-assertObjectsEqual(shirtObject, anotherShirtObject); 
-assertObjectsEqual(shirtObject, longSleeveShirtObject);
+// assertObjectsEqual(shirtObject, anotherShirtObject); 
+// assertObjectsEqual(shirtObject, longSleeveShirtObject);
+
+module.exports = assertObjectsEqual;

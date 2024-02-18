@@ -35,5 +35,5 @@ module.exports = {
   reversed : reverse,
   tail:   tail,
   takeUntil : takeUntil,
-  without : without
+  without : without,
 };

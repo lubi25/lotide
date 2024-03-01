@@ -1,4 +1,4 @@
-function countLetters(allLetters) {
+const countLetters = function(allLetters) {
   var letCount = {};
 
   for (const count of allLetters) {
@@ -12,6 +12,6 @@ function countLetters(allLetters) {
   }
 
   return letCount;
-}
+};
 
 module.exports = countLetters;

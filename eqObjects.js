@@ -1,5 +1,3 @@
-const assertEqual = require('./assertEqual');
-
 const eqObjects = (object1, object2) => {
   const keys1 = Object.keys(object1).sort();
   const keys2 = Object.keys(object2).sort();
